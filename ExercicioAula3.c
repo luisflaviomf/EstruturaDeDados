@@ -85,7 +85,7 @@ int main() {
 	imprimir (&lista);
 	
 	TItem itemRetornado;
-	get (&lista, 1, &itemRetornado);
+	get (&lista, quantidadeitens-1, &itemRetornado);
 	printf("Retorno: %d\n", itemRetornado.chave);
 
 	printf("Tamanho: %d. ", tamanho(&lista));
